@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg">
+    <sys_push_notif_msg action="INSERT_OR_UPDATE">
+        <message_string>Notification001</message_string>
+        <name>Notification001</name>
+        <push_app display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</push_app>
+        <push_message_content display_value="New Comment">4391e69b0f5c33001befa68ca8767eb7</push_message_content>
+        <subject/>
+        <sys_class_name>sys_push_notif_msg</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-28 04:31:38</sys_created_on>
+        <sys_id>07c5734a47255910c971f2e7536d436b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Notification001</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_push_notif_msg_07c5734a47255910c971f2e7536d436b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-01 15:15:01</sys_updated_on>
+        <table>x_58872_needit_needit_task</table>
+        <type>push</type>
+    </sys_push_notif_msg>
+</record_update>

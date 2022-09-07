@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="task" label="NeedIt Task" max_length="40" name="x_58872_needit_needit_task" type="collection"/>
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="NeedIt Task" max_length="40" name="x_58872_needit_needit_task" sizeclass="21" type="collection">
+        <element choice="1" label="Send email" max_length="40" name="send_email" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="发送邮件" sequence="0" value="send_email"/>
+                <element inactive_on_update="false" label="不发邮件" sequence="1" value="no_email"/>
+                <element inactive_on_update="false" label="已发送邮件" sequence="2" value="send_finish"/>
+            </choice>
+        </element>
+    </element>
 </database>
